@@ -44,13 +44,12 @@ partial struct TurretShootingSystem : ISystem
         };
 
         // Schedule execution in a single thread, and do not block main thread.
-        //turretShootJob.Schedule();
-        turretShootJob.Run();
+        turretShootJob.Schedule();
     }
 }
 
 [BurstCompile]
-partial struct TurretShoot : IJobEntity
+partial struct TurretShoot : IJobEntity, InternalCompilerInterface.IIsFullyUnmanaged
 {
     [ReadOnly] public ComponentLookup<WorldTransform> WorldTransformLookup;
     public EntityCommandBuffer ECB;
