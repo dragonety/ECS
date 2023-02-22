@@ -72,5 +72,8 @@ partial struct TurretShoot : IJobEntity, InternalCompilerInterface.IIsFullyUnman
         {
             Speed = spawnLocalToWorld.Forward() * 20.0f
         });
+        
+        // The line below propagates the color from the turret to the cannon ball.
+        ECB.SetComponent(instance, new URPMaterialPropertyBaseColor { Value = turret.Color });
     }
 }
