@@ -52,7 +52,7 @@ partial struct TurretShootingSystem : ISystem
 // for the tanks which are in the safe zone.
 [WithAll(typeof(Shooting))]
 [BurstCompile]
-partial struct TurretShoot : IJobEntity, InternalCompilerInterface.IIsFullyUnmanaged
+partial struct TurretShoot : IJobEntity
 {
     [ReadOnly] public ComponentLookup<WorldTransform> WorldTransformLookup;
     public EntityCommandBuffer ECB;

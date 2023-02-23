@@ -53,7 +53,7 @@ partial struct SafeZoneSystem : ISystem
 // Requires the Turret type without processing it (it's not part of the Execute method).
 [WithAll(typeof(Turret))]
 [BurstCompile]
-partial struct SafeZoneJob : IJobEntity, InternalCompilerInterface.IIsFullyUnmanaged
+partial struct SafeZoneJob : IJobEntity
 {
     // When running this job in parallel, the safety system will complain about a
     // potential race condition with ShootingLookup because accessing the same entity

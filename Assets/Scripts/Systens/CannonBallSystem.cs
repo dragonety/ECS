@@ -34,7 +34,7 @@ partial struct CannonBallSystem : ISystem
 
 [BurstCompile]
 // IJobEntity relies on source generation to implicitly define a query from the signature of the Execute function.
-partial struct CannonBallJob : IJobEntity, InternalCompilerInterface.IIsFullyUnmanaged
+partial struct CannonBallJob : IJobEntity
 {
     // A regular EntityCommandBuffer cannot be used in parallel, a ParallelWriter has to be explicitly used.
     public EntityCommandBuffer.ParallelWriter ECB;
