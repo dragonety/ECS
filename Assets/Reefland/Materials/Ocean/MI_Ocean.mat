@@ -1,0 +1,7 @@
+Diffuse=BlendFunc_DefBase
+Normal=T_N_Water_1
+Other[0]=BlendFunc_DefBlend
+Other[1]=T_Noise_Hexagons
+Other[2]=T_N_Water_2
+Other[3]=T_Rain_Ripples
+Other[4]=HDRI_CartoonWater

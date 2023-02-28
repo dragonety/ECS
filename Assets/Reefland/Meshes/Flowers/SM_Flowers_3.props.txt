@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Reefland/Materials/Main/Trees/MI_Main_Tree_3.MI_Main_Tree_3'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Reefland/Materials/Main/Trees/MI_Main_Tree_3.MI_Main_Tree_3'
+        MaterialSlotName = M_Grass_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 62.256, 163.109, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-5.61011, Y=-4.19937, Z=10.7156 }
+    BoxExtent = { X=118.545, Y=175.605, Z=12.5705 }
+    SphereRadius = 209.34
+}

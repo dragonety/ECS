@@ -1,0 +1,5 @@
+Diffuse=BlendFunc_DefBase
+Other[0]=BlendFunc_DefBlend
+Other[1]=T_Scale_1
+Other[2]=T_Scale_2
+Other[3]=T_Scale_3

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Reefland/Materials/Effects/MI_StylizedClouds.MI_StylizedClouds'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Reefland/Materials/Effects/MI_StylizedClouds.MI_StylizedClouds'
+        MaterialSlotName = M_Sphere
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 151.81, 154.287, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-3.8147e-06, Y=-1.14441e-05, Z=0 }
+    BoxExtent = { X=40, Y=40, Z=40 }
+    SphereRadius = 40
+}

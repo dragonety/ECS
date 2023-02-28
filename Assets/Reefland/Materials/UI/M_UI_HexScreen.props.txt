@@ -1,0 +1,125 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Reefland/Textures/UI/Menu/T_HexGrid.T_HexGrid'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=TilingPointsSmall }
+                    ParameterInfos[1] = { Name=TilingGrid }
+                    ParameterInfos[2] = { Name=BackgroundMultiply }
+                    ParameterInfos[3] = { Name=Opacity }
+                    ParameterInfos[4] = { Name=TilingPointsBig }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=ColorPointsMega }
+                    ParameterInfos[1] = { Name=ColorPointsBig }
+                    ParameterInfos[2] = { Name=ColorBackground }
+                    ParameterInfos[3] = { Name=ColorPointsSmall }
+                    ParameterInfos[4] = { Name=FinalColor }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[1] =
+                {
+                    ParameterInfos[0] = { Name=T_Shape }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[5] = { 600, 1000, 0.5, 1, 800 }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0.3564, G=0.3564, B=0.3564, A=1 }
+            VectorValues[1] = { R=0.287441, G=0.287441, B=0.287441, A=1 }
+            VectorValues[2] = { R=0.223228, G=0.223228, B=0.223228, A=1 }
+            VectorValues[3] = { R=0.396755, G=0.396755, B=0.396755, A=1 }
+            VectorValues[4] = { R=1, G=1, B=1, A=1 }
+        }
+        TextureValues[1] =
+        {
+            TextureValues[0] = Texture2D'/Game/Reefland/Textures/UI/Menu/T_HexGrid.T_HexGrid'
+        }
+    }
+    ReferencedTextures[2] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/Reefland/Textures/UI/Menu/T_HexGrid.T_HexGrid'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[1] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Reefland/Textures/UI/Menu/T_HexGrid.T_HexGrid'
+        Name = T_Shape
+        Group = None
+    }
+}
+CollectedScalarParameters[5] =
+{
+    CollectedScalarParameters[0] = { Value=600, Name=TilingPointsSmall, Group=None }
+    CollectedScalarParameters[1] = { Value=1000, Name=TilingGrid, Group=None }
+    CollectedScalarParameters[2] = { Value=0.5, Name=BackgroundMultiply, Group=None }
+    CollectedScalarParameters[3] = { Value=1, Name=Opacity, Group=None }
+    CollectedScalarParameters[4] = { Value=800, Name=TilingPointsBig, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.3564, G=0.3564, B=0.3564, A=1 }
+        Name = ColorPointsMega
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.287441, G=0.287441, B=0.287441, A=1 }
+        Name = ColorPointsBig
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.223228, G=0.223228, B=0.223228, A=1 }
+        Name = ColorBackground
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.396755, G=0.396755, B=0.396755, A=1 }
+        Name = ColorPointsSmall
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = FinalColor
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}

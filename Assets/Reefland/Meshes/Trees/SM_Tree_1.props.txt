@@ -1,0 +1,38 @@
+Materials[2] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Reefland/Materials/Main/Trees/MI_Main_Tree_Bark.MI_Main_Tree_Bark'
+    Materials[1] = MaterialInstanceConstant'/Game/Reefland/Materials/Main/Trees/MI_Main_Tree_1.MI_Main_Tree_1'
+}
+SourceModels[0] = {}
+StaticMaterials[2] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Reefland/Materials/Main/Trees/MI_Main_Tree_Bark.MI_Main_Tree_Bark'
+        MaterialSlotName = M_Tree_2
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 320.637, 649.56, 0, 0 }
+        }
+    }
+    StaticMaterials[1] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Reefland/Materials/Main/Trees/MI_Main_Tree_1.MI_Main_Tree_1'
+        MaterialSlotName = M_Tree_1
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 309.689, 653.672, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=0.212929, Y=-19.4214, Z=90.1661 }
+    BoxExtent = { X=115.064, Y=119.815, Z=93.4006 }
+    SphereRadius = 155.469
+}

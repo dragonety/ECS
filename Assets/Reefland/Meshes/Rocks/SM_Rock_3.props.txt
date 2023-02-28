@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Reefland/Materials/Main/Rocks/MI_Main_Rocks.MI_Main_Rocks'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Reefland/Materials/Main/Rocks/MI_Main_Rocks.MI_Main_Rocks'
+        MaterialSlotName = M_Rock
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 190.034, 65.6118, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-0.130499, Y=143.966, Z=5 }
+    BoxExtent = { X=28.6175, Y=24.2005, Z=5 }
+    SphereRadius = 30.4337
+}

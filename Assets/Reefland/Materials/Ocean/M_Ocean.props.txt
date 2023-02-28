@@ -1,0 +1,289 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[7] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Game/Reefland/Textures/Objects/Hexagons/T_Noise_Hexagons.T_Noise_Hexagons'
+    ReferencedTextures[3] = Texture2D'/Game/Reefland/Textures/Ocean/T_N_Water_1.T_N_Water_1'
+    ReferencedTextures[4] = Texture2D'/Game/Reefland/Textures/Ocean/T_N_Water_2.T_N_Water_2'
+    ReferencedTextures[5] = Texture2D'/Game/Reefland/Textures/Ocean/T_Rain_Ripples.T_Rain_Ripples'
+    ReferencedTextures[6] = TextureCube4'/Game/Reefland/Textures/Ocean/HDRI_CartoonWater.HDRI_CartoonWater'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[37] =
+                {
+                    ParameterInfos[0] = { Name=Refraction Depth }
+                    ParameterInfos[1] = { Name=Normal Tiling Large }
+                    ParameterInfos[2] = { Name=ShineFoamScale }
+                    ParameterInfos[3] = { Name=RipplesScale }
+                    ParameterInfos[4] = { Name=Rain }
+                    ParameterInfos[5] = { Name=ExponentIn }
+                    ParameterInfos[6] = { Name=CoastOpacity }
+                    ParameterInfos[7] = { Name=Normal Tiling Small }
+                    ParameterInfos[8] = { Name=CubeMap Intensity }
+                    ParameterInfos[9] = { Name=RipplesIntensity }
+                    ParameterInfos[10] = { Name=DistanceSmooth }
+                    ParameterInfos[11] = { Name=ShineNoiseMultiply }
+                    ParameterInfos[12] = { Name=Shine }
+                    ParameterInfos[13] = { Name=FoamObjectYTile }
+                    ParameterInfos[14] = { Name=Specular Intensity }
+                    ParameterInfos[15] = { Name=NormalSpeed }
+                    ParameterInfos[16] = { Name=FoamObjectIntersectionSize }
+                    ParameterInfos[17] = { Name=Normal Intensity Large }
+                    ParameterInfos[18] = { Name=FadeDistanceDeep }
+                    ParameterInfos[19] = { Name=Reflection Angle }
+                    ParameterInfos[20] = { Name=WindSpeed }
+                    ParameterInfos[21] = { Name=FadeOpacityDeep }
+                    ParameterInfos[22] = { Name=FoamObjectIntersectionSoftness }
+                    ParameterInfos[23] = { Name=Normal Intensity Small }
+                    ParameterInfos[24] = { Name=ShineEmissive }
+                    ParameterInfos[25] = { Name=ShineNoisePower }
+                    ParameterInfos[26] = { Name=FoamObjectNoiseScale }
+                    ParameterInfos[27] = { Name=NormalIntensity }
+                    ParameterInfos[28] = { Name=FoamFadeDistance }
+                    ParameterInfos[29] = { Name=Normal Speed }
+                    ParameterInfos[30] = { Name=Refraction Amount Depth }
+                    ParameterInfos[31] = { Name=Multiply }
+                    ParameterInfos[32] = { Name=RadiusCircle }
+                    ParameterInfos[33] = { Name=Distance }
+                    ParameterInfos[34] = { Name=FoamObjectXTile }
+                    ParameterInfos[35] = { Name=FoamObjectSpeed }
+                    ParameterInfos[36] = { Name=Refraction Amount }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[5] =
+                {
+                    ParameterInfos[0] = { Name=ColorHorizon }
+                    ParameterInfos[1] = { Name=FoamColor }
+                    ParameterInfos[2] = { Name=ColorOcean }
+                    ParameterInfos[3] = { Name=ColorOcean2 }
+                    ParameterInfos[4] = { Name=ColorCoast }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[3] =
+                {
+                    ParameterInfos[0] = { Name=Water Normal Large }
+                    ParameterInfos[1] = { Name=Water Normal Small }
+                    ParameterInfos[2] = { Name=CubeMap }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[37] =
+        {
+            ScalarValues[0] = 1000
+            ScalarValues[1] = 500
+            ScalarValues[2] = 300
+            ScalarValues[3] = 500
+            ScalarValues[4] = 0
+            ScalarValues[5] = 5
+            ScalarValues[6] = 0.3
+            ScalarValues[7] = 2000
+            ScalarValues[8] = 0.05
+            ScalarValues[9] = 1
+            ScalarValues[10] = 2
+            ScalarValues[11] = 1.8
+            ScalarValues[12] = 1
+            ScalarValues[13] = 1
+            ScalarValues[14] = 0.2
+            ScalarValues[15] = 0.5
+            ScalarValues[16] = 10
+            ScalarValues[17] = 0.1
+            ScalarValues[18] = 400
+            ScalarValues[19] = 1
+            ScalarValues[20] = -0.4
+            ScalarValues[21] = 1
+            ScalarValues[22] = 50
+            ScalarValues[23] = 0.2
+            ScalarValues[24] = 40
+            ScalarValues[25] = 100
+            ScalarValues[26] = 600
+            ScalarValues[27] = 1
+            ScalarValues[28] = 350
+            ScalarValues[29] = 0.5
+            ScalarValues[30] = 3
+            ScalarValues[31] = 3
+            ScalarValues[32] = 10000
+            ScalarValues[33] = 20000
+            ScalarValues[34] = 2
+            ScalarValues[35] = -0.1
+            ScalarValues[36] = 5
+        }
+        VectorValues[5] =
+        {
+            VectorValues[0] = { R=0.10485, G=0.750522, B=0.838799, A=1 }
+            VectorValues[1] = { R=0.4, G=0.4, B=0.4, A=1 }
+            VectorValues[2] = { R=0, G=0.0666259, B=0.191202, A=1 }
+            VectorValues[3] = { R=0, G=0.104538, B=0.3, A=1 }
+            VectorValues[4] = { R=0, G=0.630757, B=0.351533, A=1 }
+        }
+        TextureValues[3] =
+        {
+            TextureValues[0] = Texture2D'/Game/Reefland/Textures/Ocean/T_N_Water_2.T_N_Water_2'
+            TextureValues[1] = Texture2D'/Game/Reefland/Textures/Ocean/T_N_Water_1.T_N_Water_1'
+            TextureValues[2] = TextureCube4'/Game/Reefland/Textures/Ocean/HDRI_CartoonWater.HDRI_CartoonWater'
+        }
+    }
+    ReferencedTextures[8] =
+    {
+        ReferencedTextures[1] = Texture2D'/Game/Reefland/Textures/Ocean/T_N_Water_1.T_N_Water_1'
+        ReferencedTextures[2] = Texture2D'/Game/Reefland/Textures/Ocean/T_N_Water_2.T_N_Water_2'
+        ReferencedTextures[3] = TextureCube4'/Game/Reefland/Textures/Ocean/HDRI_CartoonWater.HDRI_CartoonWater'
+        ReferencedTextures[4] = Texture2D'/Game/Reefland/Textures/Objects/Hexagons/T_Noise_Hexagons.T_Noise_Hexagons'
+        ReferencedTextures[5] = Texture2D'/Game/Reefland/Textures/Ocean/T_Rain_Ripples.T_Rain_Ripples'
+        ReferencedTextures[6] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[7] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[3] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Reefland/Textures/Ocean/T_N_Water_2.T_N_Water_2'
+        Name = Water Normal Large
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Reefland/Textures/Ocean/T_N_Water_1.T_N_Water_1'
+        Name = Water Normal Small
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = TextureCube4'/Game/Reefland/Textures/Ocean/HDRI_CartoonWater.HDRI_CartoonWater'
+        Name = CubeMap
+        Group = None
+    }
+}
+CollectedScalarParameters[37] =
+{
+    CollectedScalarParameters[0] = { Value=1000, Name=Refraction Depth, Group=None }
+    CollectedScalarParameters[1] = { Value=500, Name=Normal Tiling Large, Group=None }
+    CollectedScalarParameters[2] = { Value=300, Name=ShineFoamScale, Group=None }
+    CollectedScalarParameters[3] = { Value=500, Name=RipplesScale, Group=None }
+    CollectedScalarParameters[4] = { Value=0, Name=Rain, Group=None }
+    CollectedScalarParameters[5] = { Value=5, Name=ExponentIn, Group=None }
+    CollectedScalarParameters[6] = { Value=0.3, Name=CoastOpacity, Group=None }
+    CollectedScalarParameters[7] = { Value=2000, Name=Normal Tiling Small, Group=None }
+    CollectedScalarParameters[8] = { Value=0.05, Name=CubeMap Intensity, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=RipplesIntensity, Group=None }
+    CollectedScalarParameters[10] = { Value=2, Name=DistanceSmooth, Group=None }
+    CollectedScalarParameters[11] = { Value=1.8, Name=ShineNoiseMultiply, Group=None }
+    CollectedScalarParameters[12] = { Value=1, Name=Shine, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=FoamObjectYTile, Group=None }
+    CollectedScalarParameters[14] = { Value=0.2, Name=Specular Intensity, Group=None }
+    CollectedScalarParameters[15] = { Value=0.5, Name=NormalSpeed, Group=None }
+    CollectedScalarParameters[16] =
+    {
+        Value = 10
+        Name = FoamObjectIntersectionSize
+        Group = None
+    }
+    CollectedScalarParameters[17] =
+    {
+        Value = 0.1
+        Name = Normal Intensity Large
+        Group = None
+    }
+    CollectedScalarParameters[18] = { Value=400, Name=FadeDistanceDeep, Group=None }
+    CollectedScalarParameters[19] = { Value=1, Name=Reflection Angle, Group=None }
+    CollectedScalarParameters[20] = { Value=-0.4, Name=WindSpeed, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=FadeOpacityDeep, Group=None }
+    CollectedScalarParameters[22] =
+    {
+        Value = 50
+        Name = FoamObjectIntersectionSoftness
+        Group = None
+    }
+    CollectedScalarParameters[23] =
+    {
+        Value = 0.2
+        Name = Normal Intensity Small
+        Group = None
+    }
+    CollectedScalarParameters[24] = { Value=40, Name=ShineEmissive, Group=None }
+    CollectedScalarParameters[25] = { Value=100, Name=ShineNoisePower, Group=None }
+    CollectedScalarParameters[26] = { Value=600, Name=FoamObjectNoiseScale, Group=None }
+    CollectedScalarParameters[27] = { Value=1, Name=NormalIntensity, Group=None }
+    CollectedScalarParameters[28] = { Value=350, Name=FoamFadeDistance, Group=None }
+    CollectedScalarParameters[29] = { Value=0.5, Name=Normal Speed, Group=None }
+    CollectedScalarParameters[30] =
+    {
+        Value = 3
+        Name = Refraction Amount Depth
+        Group = None
+    }
+    CollectedScalarParameters[31] = { Value=3, Name=Multiply, Group=None }
+    CollectedScalarParameters[32] = { Value=10000, Name=RadiusCircle, Group=None }
+    CollectedScalarParameters[33] = { Value=20000, Name=Distance, Group=None }
+    CollectedScalarParameters[34] = { Value=2, Name=FoamObjectXTile, Group=None }
+    CollectedScalarParameters[35] = { Value=-0.1, Name=FoamObjectSpeed, Group=None }
+    CollectedScalarParameters[36] = { Value=5, Name=Refraction Amount, Group=None }
+}
+CollectedVectorParameters[5] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=0.10485, G=0.750522, B=0.838799, A=1 }
+        Name = ColorHorizon
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.4, G=0.4, B=0.4, A=1 }
+        Name = FoamColor
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0, G=0.0666259, B=0.191202, A=1 }
+        Name = ColorOcean
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0, G=0.104538, B=0.3, A=1 }
+        Name = ColorOcean2
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0, G=0.630757, B=0.351533, A=1 }
+        Name = ColorCoast
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.078125
+        UVChannelIndex = 0
+        TextureName = T_Rain_Ripples
+    }
+}

@@ -1,0 +1,26 @@
+Materials[1] =
+{
+    Materials[0] = MaterialInstanceConstant'/Game/Reefland/Materials/Main/Animals/MI_Main_Fishes.MI_Main_Fishes'
+}
+SourceModels[0] = {}
+StaticMaterials[1] =
+{
+    StaticMaterials[0] =
+    {
+        MaterialInterface = MaterialInstanceConstant'/Game/Reefland/Materials/Main/Animals/MI_Main_Fishes.MI_Main_Fishes'
+        MaterialSlotName = M_Fishes
+        UVChannelData =
+        {
+            bInitialized = true
+            bOverrideDensities = false
+            LocalUVDensities[4] = { 135.535, 259.523, 0, 0 }
+        }
+    }
+}
+Sockets[0] = {}
+ExtendedBounds =
+{
+    Origin = { X=-14.4178, Y=4.50523, Z=32.4 }
+    BoxExtent = { X=142.075, Y=146.123, Z=24.8778 }
+    SphereRadius = 171.338
+}

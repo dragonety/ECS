@@ -1,0 +1,73 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[1] =
+{
+    ReferencedTextures[0] = Texture2D'/Game/Reefland/Textures/Objects/Hexagons/T_Noise_Hexagons.T_Noise_Hexagons'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=SpeedMove }
+                    ParameterInfos[1] = { Name=Fresnel Outer Power }
+                    ParameterInfos[2] = { Name=Fade Opacity }
+                    ParameterInfos[3] = { Name=NoiseScale }
+                    ParameterInfos[4] = { Name=OffsetAmount }
+                    ParameterInfos[5] = { Name=RainbowUV Scale }
+                    ParameterInfos[6] = { Name=Fade Distance }
+                    ParameterInfos[7] = { Name=DisintEmissive }
+                    ParameterInfos[8] = { Name=Emissive Color }
+                    ParameterInfos[9] = { Name=DisintAmount }
+                    ParameterInfos[10] = { Name=DisintWidth }
+                    ParameterInfos[11] = { Name=Rainbow Rotator }
+                }
+            }
+            Entries[1] = { ParameterInfos[0]={} }
+            Entries[2] = { ParameterInfos[0]={} }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[12] = { 3, 1.5, 1, 100, 50, 500, 25, 5, 5, 0, 0.02, 1 }
+        VectorValues[0] = {}
+        TextureValues[0] = {}
+    }
+    ReferencedTextures[1] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Reefland/Textures/Objects/Hexagons/T_Noise_Hexagons.T_Noise_Hexagons'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[0] = {}
+CollectedScalarParameters[12] =
+{
+    CollectedScalarParameters[0] = { Value=3, Name=SpeedMove, Group=None }
+    CollectedScalarParameters[1] = { Value=1.5, Name=Fresnel Outer Power, Group=None }
+    CollectedScalarParameters[2] = { Value=1, Name=Fade Opacity, Group=None }
+    CollectedScalarParameters[3] = { Value=100, Name=NoiseScale, Group=None }
+    CollectedScalarParameters[4] = { Value=50, Name=OffsetAmount, Group=None }
+    CollectedScalarParameters[5] = { Value=500, Name=RainbowUV Scale, Group=None }
+    CollectedScalarParameters[6] = { Value=25, Name=Fade Distance, Group=None }
+    CollectedScalarParameters[7] = { Value=5, Name=DisintEmissive, Group=None }
+    CollectedScalarParameters[8] = { Value=5, Name=Emissive Color, Group=None }
+    CollectedScalarParameters[9] = { Value=0, Name=DisintAmount, Group=None }
+    CollectedScalarParameters[10] = { Value=0.02, Name=DisintWidth, Group=None }
+    CollectedScalarParameters[11] = { Value=1, Name=Rainbow Rotator, Group=None }
+}
+CollectedVectorParameters[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
